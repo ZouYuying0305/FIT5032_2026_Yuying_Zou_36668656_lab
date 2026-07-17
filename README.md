@@ -1,65 +1,94 @@
-# FIT5032 – Web Application Development
+# FIT5032 2026 - Laboratory Coursework
 
 **Student:** Yuying Zou  
-**Student ID:** 36668656
+**Student ID:** 36668656  
+**Repository:** `FIT5032_2026_Yuying_Zou_36668656_lab`
 
 ## Overview
 
-This repository contains all coursework, laboratory exercises, and assessment projects completed for **FIT5032 – Web Application Development**.
+This repository stores FIT5032 laboratory work completed during the semester. The labs
+are developed with Vue.js 3 and progressively cover core front-end development topics,
+including component-based development, JSON data handling, Bootstrap styling, form
+validation, PrimeVue components, Vue Router, and secure navigation.
 
-The project is developed using **Vue.js 3** and related web technologies throughout the semester.
-
----
+Lab 1 is maintained in a separate repository as required by the unit instructions. This
+repository is used for later laboratory work and ongoing Vue.js practice.
 
 ## Repository Structure
 
-```
-FIT5032_2026_Yuying_Zou_36668656
-│
-├── Lab1/
-│   └── Vue.js project setup and component fundamentals
-│
+```text
+FIT5032_2026_Yuying_Zou_36668656_lab
+|
 ├── Lab2/
-│   └── JSON data, computed properties, Vue directives, and data binding
-│
+│   └── yzou-library/
+│       └── JSON data, computed properties, Vue directives, and data binding
+|
 ├── Lab3/
-│   └── Bootstrap integration, responsive forms, and UI components
-│
+│   └── yzou-library/
+│       └── Bootstrap 5 integration, responsive forms, and UI components
+|
+├── Lab4/
+│   └── yzou-library/
+│       └── HTML validation, Vue custom validation, and PrimeVue DataTable
+|
+├── Lab5/
+│   └── yzou-library/
+│       └── Event handling, password confirmation, Vue DevTools, Vue Router, and secure navigation
+|
 ├── Assignment2/
-│   └── Health Charity Web Application (GradWell)
-│
+│   └── Health charity web application development
+|
 ├── Assignment3/
-│   └── Final deployment and advanced web application features
-│
+│   └── Advanced web application features and deployment
+|
 └── README.md
 ```
 
----
-
-## Technologies
+## Technologies Used
 
 - Vue.js 3
 - Vite
-- JavaScript (ES6+)
+- JavaScript
 - HTML5
 - CSS3
 - Bootstrap 5
-- Git & GitHub
+- PrimeVue
+- Vue Router
+- Git and GitHub
 
----
+## Lab Progress
 
-## Progress
+| Lab | Topic | Status |
+| --- | --- | --- |
+| Lab 2 | JSON data, computed properties, directives, and binding | Completed |
+| Lab 3 | Bootstrap styling and responsive form design | Completed |
+| Lab 4 | HTML validation, Vue custom validation, and PrimeVue DataTable | Completed |
+| Lab 5 | Event handling, two-way binding, Vue DevTools, routing, and secure navigation | Completed |
 
-| Week | Content | Status |
-|------|---------|--------|
-| Lab 1 | Vue Project Setup | ✅ Completed |
-| Lab 2 | JSON & Vue Directives | ✅ Completed |
-| Lab 3 | Bootstrap & Responsive Design | ✅ Completed |
-| Assignment 1 | Project Planning & UX Design | ✅ Completed |
-| Assignment 2 | Development | 🚧 In Progress |
-| Assignment 3 | Final Deployment | ⏳ Planned |
+## Running a Lab Project
 
----
+Each lab project is stored in its own `yzou-library` folder. To run a specific lab, enter
+that lab folder and start the Vite development server.
+
+Example for Lab 5:
+
+```bash
+cd Lab5/yzou-library
+npm install
+npm run dev
+```
+
+Then open the localhost URL shown in the terminal, usually:
+
+```text
+http://localhost:5173/
+```
+
+## Notes
+
+- `node_modules/` and `dist/` are excluded from version control.
+- Each lab is kept in a separate folder so previous work remains available for reference.
+- Later assessments can reuse the same Vue.js concepts practised in these labs.
 
 ## Author
 
