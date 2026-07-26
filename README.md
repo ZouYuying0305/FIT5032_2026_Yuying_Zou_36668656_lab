@@ -10,6 +10,8 @@ This repository stores FIT5032 laboratory work completed during the semester. Th
 are developed with Vue.js 3 and progressively cover core front-end development topics,
 including component-based development, JSON data handling, Bootstrap styling, form
 validation, PrimeVue components, Vue Router, and secure navigation.
+Recent lab work also covers Firebase Authentication, including user registration, sign in,
+logout, current user inspection, and role-based sign-in evidence.
 
 Lab 1 is maintained in a separate repository as required by the unit instructions. This
 repository is used for later laboratory work and ongoing Vue.js practice.
@@ -35,6 +37,10 @@ FIT5032_2026_Yuying_Zou_36668656_lab
 │   └── yzou-library/
 │       └── Event handling, password confirmation, Vue DevTools, Vue Router, and secure navigation
 |
+├── Lab7/
+│   └── yzou-library/
+│       └── Firebase Authentication, registration, sign in, logout, and role-based testing
+|
 ├── Assignment2/
 │   └── Health charity web application development
 |
@@ -54,6 +60,7 @@ FIT5032_2026_Yuying_Zou_36668656_lab
 - Bootstrap 5
 - PrimeVue
 - Vue Router
+- Firebase Authentication
 - Git and GitHub
 
 ## Lab Progress
@@ -64,16 +71,17 @@ FIT5032_2026_Yuying_Zou_36668656_lab
 | Lab 3 | Bootstrap styling and responsive form design | Completed |
 | Lab 4 | HTML validation, Vue custom validation, and PrimeVue DataTable | Completed |
 | Lab 5 | Event handling, two-way binding, Vue DevTools, routing, and secure navigation | Completed |
+| Lab 7 | Firebase Authentication, user registration, sign in, logout, and role-based testing | Completed |
 
 ## Running a Lab Project
 
 Each lab project is stored in its own `yzou-library` folder. To run a specific lab, enter
 that lab folder and start the Vite development server.
 
-Example for Lab 5:
+Example for Lab 7:
 
 ```bash
-cd Lab5/yzou-library
+cd Lab7/yzou-library
 npm install
 npm run dev
 ```
@@ -87,6 +95,7 @@ http://localhost:5173/
 ## Notes
 
 - `node_modules/` and `dist/` are excluded from version control.
+- `.env.local` is excluded from version control to avoid exposing local Firebase configuration.
 - Each lab is kept in a separate folder so previous work remains available for reference.
 - Later assessments can reuse the same Vue.js concepts practised in these labs.
 
