@@ -12,6 +12,8 @@ including component-based development, JSON data handling, Bootstrap styling, fo
 validation, PrimeVue components, Vue Router, and secure navigation.
 Recent lab work also covers Firebase Authentication, including user registration, sign in,
 logout, current user inspection, and role-based sign-in evidence.
+The latest lab extends the Firebase work by integrating Cloud Firestore for adding,
+retrieving, updating, deleting, and querying book records.
 
 Lab 1 is maintained in a separate repository as required by the unit instructions. This
 repository is used for later laboratory work and ongoing Vue.js practice.
@@ -41,6 +43,10 @@ FIT5032_2026_Yuying_Zou_36668656_lab
 │   └── yzou-library/
 │       └── Firebase Authentication, registration, sign in, logout, and role-based testing
 |
+├── Lab8/
+│   └── yzou-library/
+│       └── Cloud Firestore setup, add/update/delete operations, and query retrieval
+|
 ├── Assignment2/
 │   └── Health charity web application development
 |
@@ -61,6 +67,7 @@ FIT5032_2026_Yuying_Zou_36668656_lab
 - PrimeVue
 - Vue Router
 - Firebase Authentication
+- Cloud Firestore
 - Git and GitHub
 
 ## Lab Progress
@@ -72,16 +79,17 @@ FIT5032_2026_Yuying_Zou_36668656_lab
 | Lab 4 | HTML validation, Vue custom validation, and PrimeVue DataTable | Completed |
 | Lab 5 | Event handling, two-way binding, Vue DevTools, routing, and secure navigation | Completed |
 | Lab 7 | Firebase Authentication, user registration, sign in, logout, and role-based testing | Completed |
+| Lab 8 | Cloud Firestore data management, CRUD operations, and query retrieval | Completed |
 
 ## Running a Lab Project
 
 Each lab project is stored in its own `yzou-library` folder. To run a specific lab, enter
 that lab folder and start the Vite development server.
 
-Example for Lab 7:
+Example for Lab 8:
 
 ```bash
-cd Lab7/yzou-library
+cd Lab8/yzou-library
 npm install
 npm run dev
 ```
