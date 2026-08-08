@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.GITHUB_PAGES === 'true' ? '/FIT5032_2026_Yuying_Zou_36668656_lab/' : '/',
   plugins: [
     vue(),
     vueDevTools(),
